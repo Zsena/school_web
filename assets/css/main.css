@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,700,700i&display=swap&subset=latin-ext');
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,700,700i&display=swap&subset=latin-ext");
 
 /* font-family: 'Roboto', sans-serif; */
 
@@ -7,4 +7,35 @@
 header.main-header {
     background-color: #383838;
     height: 95px;
+}
+
+header.main-header .main-nav ul.navbar li.nav-item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header.main-header .main-nav ul.navbar {
+    list-style-type: none;
+    padding-left: 0;
+    width: 70%;
+    float: right;
+}
+
+header.main-header .main-nav ul.navbar li.nav-item {
+    display: inline-block;
+    padding: 25px 30px;
+}
+
+header.main-header .nav-brand {
+    width: 30%;
+    float: left;
+}
+
+header.main-header .main-nav {
+    width: 100%;
+    display: inline-block;
+}
+
+header.main-header .nav-brand h1 {
+    color: #fff;
 }
