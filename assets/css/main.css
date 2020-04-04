@@ -1,6 +1,19 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,700,700i&display=swap&subset=latin-ext");
 
 /* font-family: 'Roboto', sans-serif; */
+/* base styles */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+
 
 /* header */
 
@@ -38,4 +51,32 @@ header.main-header .main-nav {
 
 header.main-header .nav-brand h1 {
     color: #fff;
+}
+
+
+
+
+
+
+/* hero section */
+
+section.hero-section header.container.hero .row .column.hero-article h1 {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 2;
+    color: #216481;
+
+} 
+
+section.hero-section header.container.hero .row:after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+section.hero-section header.container.hero .row .column {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    min-height: 300px;
 }
