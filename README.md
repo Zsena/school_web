@@ -1,1 +1,1 @@
-# school_web
+# school_web - geekcamp student group project
